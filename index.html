@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://ucertify.com/layout/themes/bootstrap4/ux/css/uc_global.css">
+    <link rel="stylesheet" href="https://www.ucertify.com/layout/themes/bootstrap4/ux/css/main_sass/main.css ">
+    <link rel="stylesheet" href="https://www.ucertify.com/layout/themes/bootstrap4/ux/css/bootstrap4.css">
+    <link rel="stylesheet" href="https://www.ucertify.com/utils/?util=icomoon">
+    <title>Bootstrap-Project</title>
+</head>
+
+<body>
+    <div class="container">
+        <ul class="nav nav-pills row text-nowrap mt-4">
+            <li class="nav-item col col-lg-auto">
+                <a class="nav-link " aria-current="page" href="#"><i class="icomoon-my-library-24px-1 mr-1"></i>
+                    <span class="d-none d-md-inline ">My Library</span>
+                </a>
+            </li>
+            <li class="nav-item col col-lg-auto">
+                <a class="nav-link" href="#"> <i class="icomoon-stack-plus mr-1"></i>
+                    <span class="d-none d-md-inline ">Enroll</span>
+                </a>
+            </li>
+            <li class="nav-item col col-lg-auto">
+                <a class="nav-link" href="#"><i class="icomoon-envelop-3 mr-1"></i>
+                    <span class="d-none d-md-inline ">Inbox</span>
+                </a>
+            </li>
+            <li class="nav-item col col-lg-auto">
+                <a class="nav-link "><i class="icomoon-my-profile-24px-1 mr-1"></i>
+                    <span class="d-none d-md-inline ">My profile</span>
+                </a>
+            </li>
+            <li class="nav-item col col-lg-auto">
+                <a class="nav-link active"><i class="icomoon-admin-24px-1 mr-1"></i>
+                    <span class="d-none d-md-inline ">Admin</span>
+                </a>
+            </li>
+        </ul>
+        
+
+        <div class="body_container row">
+            <div class=" col mt-3 col-sm-3 mr-sm-1 col-md-2">
+                <div class="col p-0">
+                    <select name="user_guid" id="focus_calendar_name"
+                        class="form-control form-control-md  select2 select2-hidden-accessible" tabindex="-1"
+                        aria-hidden="true" data-select2-id="focus_calendar_name">
+                    </select>
+
+                    <span class="select2 select2-container select2-container--default" dir="ltr" data-select2-id="295"
+                        style="width: 191.988px;"><span class="selection"><span
+                                class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true"
+                                aria-expanded="false" tabindex="0" aria-disabled="false"
+                                aria-labelledby="select2-focus_calendar_name-container"><span
+                                    class="select2-selection__rendered" id="select2-focus_calendar_name-container"
+                                    role="textbox" aria-readonly="true" title="Aayush Jain"><span
+                                        class="select2-selection__clear" title="Remove all items"
+                                        data-select2-id="297">×</span>uCertify</span><span
+                                    class="select2-selection__arrow" role="presentation"><b
+                                        role="presentation"></b></span></span></span><span class="dropdown-wrapper"
+                            aria-hidden="true"></span></span>
+                </div>
+            </div>
+
+            <div class="form-group col-lg-5 col-md col col-sm mt-3 pl-0">
+                <div class="btn-group col pr-0 pl-md-0 pl-sm-0 ">
+                    <button type="button" class="btn btn-light  active text-nowrap" filter="q" rel="tooltip" title="">
+                        <i class="icomoon-roster-sm"></i>
+                        Roster
+                        <span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span>
+                    </button>
+                    <button type="button" class="btn btn-light dropdown-toggle" filter="p" rel="tooltip" title="">
+                        <i class="icomoon-24px-project-management"></i>
+                        Manage
+                    </button>
+                    <button type="button" class="btn btn-light  dropdown-toggle" filter="u" rel="tooltip" title=""
+                        data-original-title="Quiz" data-toggle="dropdown">
+                        <i class="icomoon-reports-sm"></i>
+                        Report
+                    </button>
+                    <button type="button" class="btn btn-light text-nowrap" filter="u" rel="tooltip" title=""
+                        data-original-title="Quiz">
+                        <i class="icomoon-add-license-enroll-sm"></i>
+                        Enroll
+                    </button>
+                </div>
+            </div>
+            <!-- <div class="w-md-100%"></div> --> 
+            <div class="col col-md col-lg  mt-md-0 justify-content-start mt-md-3 mt-lg-3">
+                <!-- <button class="btn btn-lg-sm h-md-75 btn-outline-primary text-nowrap ">LMS Configuration</button> -->
+                <div class="float-lg-end float-md-end p-0 mb-sm-3">
+                    <button type="button" class="btn btn-outline-primary text-nowrap">LMS Configuration</button>
+                    <button type="button" class="btn btn-outline-dark border-primary dropdown-toggle "><i class="icomoon-file-download "></i>
+                        <span class="d-md-none d-lg-inline">Export</span></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="p-0 mr-0 mt-3 mt-sm-0 mt-lg-0 ">
+            <div class="row col p-0 m-0">
+                <button class="btn btn-light active rounded border border-secondar  col-md-1 col-lg p-lg-0">
+                    <i class="icomoon-search-3"></i>
+                </button>
+
+                <div class="form-group m-0 p-0 ml-md-2 mt-sm-2 mt-2 mt-md-0 col-12 col-md col-lg-6">
+                    <div class="btn-group col p-0">
+                        <button type="button" class="btn btn-light active text-nowrap" filter="q" rel="tooltip"
+                            title="" data-original-title="Exercise">
+                            <i class="icomoon-roster-sm"></i>
+                            <span class="d-none d-md-inline">Roster</span>
+                            <!-- <span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span> -->
+                        </button>
+                        <button type="button" class="btn btn-light text-nowrap " filter="p" rel="tooltip" title=""
+                            data-original-title="Test Sets" data-toggle="dropdown">
+                            <i class="icomoon-lesson-sm"></i>
+                            <span class="d-none d-md-inline">Lessons</span>
+                        </button>
+                        <button type="button" class="btn btn-light text-nowrap" filter="u" rel="tooltip" title=""
+                            data-original-title="Quiz" data-toggle="dropdown">
+                            <i class="icomoon-testprep-or-practice-test"></i>
+                            <span class="d-none d-md-inline">Pratice</span>
+                        </button>
+                        <button type="button" class="btn btn-light dropdown-toggle" filter="u" rel="tooltip"
+                            title="" data-original-title="Quiz">
+                            <i class="icomoon-add-license-enroll-sm"></i>
+                            <span class="d-none d-md-inline">Prepengine</span>
+                        </button>
+                        <button type="button" class="btn btn-light dropdown-toggle" filter="u" rel="tooltip"
+                            title="" data-original-title="Quiz">
+                            <i class="icomoon-bars"></i>
+                            <span class="d-none d-md-inline">Analytics</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="form-check form-switch mt-3 mt-lg-0 col-5 p-0 d-flex align-items-center col-lg-5 justify-content-md-start justify-content-lg-end align-middle">
+                    <label class="form-check-label ml-5 mr-lg-5" for="flexSwitchCheckDefault">Test Mode only
+                    </label>
+                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="details mt-2">
+            <div class="table-responsive">
+                <table class="table-hover table-striped stickytableheader">
+                    <thead>
+                        <tr class="disable">
+                            <th>
+                                <div class="form-check form-check-inline mb-0">
+                                    <input class="form-check-input mb-0" type="checkbox" id="inlineCheckbox1"
+                                        value="option1">
+                                    <button class="dropdown-toggle btn border-primary btn-light btn-xs mb-0"></button>
+                                </div>
+                            </th>
+                            <th class="dropup">
+                                Student Name
+                                <p class="text-muted small mb-0 dropdown-toggle m-0">Tag/status</p>
+                            </th>
+                            <th class="dropup">
+                                Course Name
+                                <p class="text-muted small mb-0 dropdown-toggle">CRN/course status</p>
+                            </th>
+                            <th class="dropup">
+                                Instructor
+                                <p class="text-muted small mb-0 dropdown-toggle">section</p>
+                            </th>
+                            <th class="dropup">
+                                Readliness
+                                <p class="text-muted small mb-0 dropdown-toggle"></p>
+                            </th>
+                            <th class="dropup">
+                                Start Time Passed
+                                <p class="text-muted small mb-0">Time Passesd</p>
+                                <p class="dropdown-toggle mb-0 "></p>
+                            </th>
+                            <th class="dropup">
+                                Target Time Needed
+                                <p class="text-muted small mb-0">Time Needed</p>
+                                <p class="dropdown-toggle mb-0 "></p>
+                            </th>
+                            <th>
+                                Estimated
+                                <p class="text-muted small mb-0 dropdown-toggle">Time Required</p>
+                            </th>
+                            <th class="dropup">
+                                Last Login
+                                <p class="text-muted small mb-0">Time Passesd</p>
+                                <p class="dropdown-toggle mb-0 "></p>
+                            </th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody class="">
+                        <tr class="opacity-50">
+                            <td class="align-middle">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1"
+                                        value="option1">
+                                    <label class="form-check-label" for="inlineCheckbox1">1</label>
+                                </div>
+                            </td>
+                            <td>
+                                <img src="https://www.ucertify.com/layout/themes/bootstrap4/images/default_user.jpg"
+                                    class="rounded-circle span0 mr">
+                                Abhishek ku...
+                            </td>
+                            <td>
+                                <p class="m-0">APP-Traning</p>
+                                <p class="text-muted small mb-0">app-traning</p>
+                                <i class="icomoon-lesson-sm text-success s4"></i>
+                                <i class="icomoon-testprep-sm text-success s4"></i>
+                            </td>
+                            <td class="align-middle">
+                                <p class="m-0 p-0">Dhiroo Verma</p>
+                                <span class="small text-white bg-primary">New</span>
+                            </td>
+                            <td>
+                                <svg class="peity" height="16" width="16">
+                                    <path d="M 8 0 A 8 8 0 1 1 2.2452815972907922 13.55726696367198 L 8 8"
+                                        data-value="225" fill="green"></path>
+                                    <path
+                                        d="M 2.2452815972907922 13.55726696367198 A 8 8 0 0 1 7.999999999999998 0 L 8 8"
+                                        data-value="134" fill="lightgray"></path>
+                                </svg>
+                                <p class="text-green">58%</p>
+                            </td>
+                            <td class="align-middle">24-ARP-19
+                                <p class="small text-muted mb-0">2.1 years</p>
+                            </td>
+                            <td class="align-middle">25-JUN-19
+                                <p class="small text-muted mb-0">NA</p>
+                            </td>
+                            <td class="align-middle">12-JAN-23
+                                <p class="small text-muted mb-0">1.6 years</p>
+                            </td>
+                            <td class="align-middle text-danger">21-FEB-19
+                                <p class=" small text-muted mb-0 text-red">2.3 years ago</p>
+                            </td>
+                            <td class="align-middle"><button class="btn border-primary dropdown-toggle"><i
+                                        class="icomoon-24px-settings"></i></button></td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td class="align-middle">
+                                <!-- <input type="checkbox" name="" id="">2 -->
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1"
+                                        value="option1">
+                                    <label class="form-check-label" for="inlineCheckbox1">2</label>
+                                </div>
+                            </td>
+                            <td class="user-avatar cell-detail user-info">
+                                <img src="https://www.ucertify.com/layout/themes/bootstrap4/images/default_user.jpg"
+                                    class="rounded-circle span0 mr">
+                                <span>Abhishek Pan...</span>
+                            </td>
+                            <td>
+                                <p class="m-0">APP-Traning</p>
+                                <p class="text-muted small mb-0">app-traning</p>
+                                <i class="icomoon-lesson-sm text-success s4 "></i>
+                                <i class="icomoon-testprep-sm text-success s4 "></i>
+                            </td>
+                            <td class="align-middle">Swati kesarwani
+                                <p class="small text-white bg-primary mb-0">Merged shambhunath Ap</p>
+                            </td>
+                            <td><svg class="peity" height="16" width="16">
+                                    <path d="M 8 0 A 8 8 0 1 1 2.2452815972907922 13.55726696367198 L 8 8"
+                                        data-value="225" fill="green"></path>
+                                    <path
+                                        d="M 2.2452815972907922 13.55726696367198 A 8 8 0 0 1 7.999999999999998 0 L 8 8"
+                                        data-value="134" fill="lightgray"></path>
+                                </svg>
+                                <p class="text-green">64%</p>
+                            </td>
+                            <td class="align-middle">18-FEB-19
+                                <p class="small text-mute mb-0">4.3 years</p>
+                            </td>
+                            <td class="align-middle">18-JUN-19
+                                <p class="small text-muted mb-0">NA</p>
+                            </td class="align-middle">
+                            <td class="align-middle">03-DEC-23
+                                <p class="small text-muted mb-0">2.5 years</p>
+                            </td>
+                            <td class="align-middle text-danger">14-MAY-17
+                                <p class="small text-muted mb-0 text-red ">4.1 years ago</p>
+                            </td>
+                            <td class="align-middle"><button class="btn border-primary dropdown-toggle"><i
+                                        class="icomoon-24px-settings"></i></button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
