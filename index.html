@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="https://ucertify.com/layout/themes/bootstrap4/ux/css/uc_global.css">
     <link rel="stylesheet" href="https://www.ucertify.com/layout/themes/bootstrap4/ux/css/main_sass/main.css ">
     <link rel="stylesheet" href="https://www.ucertify.com/layout/themes/bootstrap4/ux/css/bootstrap4.css">
-    <link rel="stylesheet" href="https://www.ucertify.com/utils/?util=icomoon">
     <title>Bootstrap-Project</title>
 </head>
 
@@ -18,35 +17,35 @@
     <div class="container">
         <ul class="nav nav-pills row text-nowrap mt-4">
             <li class="nav-item col col-lg-auto">
-                <a class="nav-link " aria-current="page" href="#"><i class="icomoon-my-library-24px-1 mr-1"></i>
-                    <span class="d-none d-md-inline ">My Library</span>
+                <a class="nav-link " aria-current="page" href="#"><i class="icomoon-my-library-24px-1"></i>
+                    <span class="d-none d-md-inline">My Library</span>
                 </a>
             </li>
             <li class="nav-item col col-lg-auto">
-                <a class="nav-link" href="#"> <i class="icomoon-stack-plus mr-1"></i>
+                <a class="nav-link" href="#"> <i class="icomoon-stack-plus"></i>
                     <span class="d-none d-md-inline ">Enroll</span>
                 </a>
             </li>
             <li class="nav-item col col-lg-auto">
-                <a class="nav-link" href="#"><i class="icomoon-envelop-3 mr-1"></i>
+                <a class="nav-link" href="#"><i class="icomoon-envelop-3"></i>
                     <span class="d-none d-md-inline ">Inbox</span>
                 </a>
             </li>
             <li class="nav-item col col-lg-auto">
-                <a class="nav-link "><i class="icomoon-my-profile-24px-1 mr-1"></i>
+                <a class="nav-link "><i class="icomoon-my-profile-24px-1"></i>
                     <span class="d-none d-md-inline ">My profile</span>
                 </a>
             </li>
             <li class="nav-item col col-lg-auto">
-                <a class="nav-link active"><i class="icomoon-admin-24px-1 mr-1"></i>
+                <a class="nav-link active"><i class="icomoon-admin-24px-1"></i>
                     <span class="d-none d-md-inline ">Admin</span>
                 </a>
             </li>
         </ul>
-        
+
 
         <div class="body_container row">
-            <div class=" col mt-3 col-sm-3 mr-sm-1 col-md-2">
+            <div class="col mt-3 col-sm-3 mr-sm-1 col-md-2 pl-3 ">
                 <div class="col p-0">
                     <select name="user_guid" id="focus_calendar_name"
                         class="form-control form-control-md  select2 select2-hidden-accessible" tabindex="-1"
@@ -68,85 +67,112 @@
                 </div>
             </div>
 
-            <div class="form-group col-lg-5 col-md col col-sm mt-3 pl-0">
+            <div class="form-group col-lg-5 col-md col-sm  mt-3 pl-0">
                 <div class="btn-group col pr-0 pl-md-0 pl-sm-0 ">
-                    <button type="button" class="btn btn-light  active text-nowrap" filter="q" rel="tooltip" title="">
-                        <i class="icomoon-roster-sm"></i>
-                        Roster
-                        <span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span>
+                    <button type="button" class="btn btn-light  active text-nowrap px-lg-0" tabindex="0"
+                        data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top"
+                        data-bs-content="Roster" filter="q" rel="tooltip" title="" data-original-title="Exercise"
+                        filter="q" rel="tooltip" title="">
+                        <i class="align-middle icomoon-roster-sm"></i>
+                        <span class="d-none d-sm-inline d-md-none d-lg-inline">Roster</span>
                     </button>
-                    <button type="button" class="btn btn-light dropdown-toggle" filter="p" rel="tooltip" title="">
+                    <button type="button" class="btn btn-light dropdown-toggle px-lg-0" tabindex="0"
+                        data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top"
+                        data-bs-content="Manage" filter="q" rel="tooltip" title="" data-original-title="Exercise"
+                        filter="p" rel="tooltip" title="">
                         <i class="icomoon-24px-project-management"></i>
-                        Manage
+                        <span class="d-none d-sm-inline d-md-none d-lg-inline">Manage</span>
+
                     </button>
-                    <button type="button" class="btn btn-light  dropdown-toggle" filter="u" rel="tooltip" title=""
-                        data-original-title="Quiz" data-toggle="dropdown">
-                        <i class="icomoon-reports-sm"></i>
-                        Report
+                    <button type="button" class="btn btn-light  dropdown-toggle px-lg-0" tabindex="0"
+                        data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top"
+                        data-bs-content="Report" filter="q" rel="tooltip" title="" data-original-title="Exercise"
+                        filter="u" rel="tooltip" title="" data-original-title="Quiz" data-toggle="dropdown">
+                        <i class="align-middle icomoon-reports-sm"></i>
+                        <span class="d-none d-sm-inline d-md-none d-lg-inline">Report</span>
                     </button>
-                    <button type="button" class="btn btn-light text-nowrap" filter="u" rel="tooltip" title=""
-                        data-original-title="Quiz">
-                        <i class="icomoon-add-license-enroll-sm"></i>
-                        Enroll
+                    <button type="button" class="btn btn-light text-nowrap px-lg-0" tabindex="0"
+                        data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top"
+                        data-bs-content="Enroll" filter="q" rel="tooltip" title="" data-original-title="Exercise"
+                        filter="u" rel="tooltip" title="" data-original-title="Quiz">
+                        <i class="icomoon-add-license-enroll-sm s4 align-middle px-lg-0"></i>
+                        <span class="d-none d-sm-inline d-md-none d-lg-inline">Enroll</span>
                     </button>
                 </div>
             </div>
-            <!-- <div class="w-md-100%"></div> --> 
             <div class="col col-md col-lg  mt-md-0 justify-content-start mt-md-3 mt-lg-3">
-                <!-- <button class="btn btn-lg-sm h-md-75 btn-outline-primary text-nowrap ">LMS Configuration</button> -->
                 <div class="float-lg-end float-md-end p-0 mb-sm-3">
-                    <button type="button" class="btn btn-outline-primary text-nowrap">LMS Configuration</button>
-                    <button type="button" class="btn btn-outline-dark border-primary dropdown-toggle "><i class="icomoon-file-download "></i>
-                        <span class="d-md-none d-lg-inline">Export</span></button>
+                    <button type="button" class="btn btn-outline-primary text-nowrap ">LMS Configuration</button>
+                    <button type="button" class="btn btn-outline-dark border-primary dropdown-toggle "><i
+                            class="icomoon-file-download "></i>
+                        <span class="d-none d-sm-inline d-md-none d-lg-inline">Export</span></button>
                 </div>
             </div>
         </div>
+        <!-- <div class="form-group m-0 p-0 ml-md-2 mt-sm-2 mt-2 mt-md-0 col-12 col-md col-lg-6"> -->
+        <!-- <div class="btn-group col p-0"> -->
 
         <div class="p-0 mr-0 mt-3 mt-sm-0 mt-lg-0 ">
-            <div class="row col p-0 m-0">
-                <button class="btn btn-light active rounded border border-secondar  col-md-1 col-lg p-lg-0">
-                    <i class="icomoon-search-3"></i>
-                </button>
+            <div class="row p-0 m-0">
+                <div class="d-flex col-md-6 col-12 p-0">
+                    <div class="mr-2 col-auto p-0 my-2 my-md-0">
+                        <button class="btn btn-light active rounded border border-secondary">
+                            <i class="icomoon-search-3"></i>
+                        </button>
+                    </div>
 
-                <div class="form-group m-0 p-0 ml-md-2 mt-sm-2 mt-2 mt-md-0 col-12 col-md col-lg-6">
-                    <div class="btn-group col p-0">
-                        <button type="button" class="btn btn-light active text-nowrap" filter="q" rel="tooltip"
-                            title="" data-original-title="Exercise">
-                            <i class="icomoon-roster-sm"></i>
-                            <span class="d-none d-md-inline">Roster</span>
-                            <!-- <span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span> -->
-                        </button>
-                        <button type="button" class="btn btn-light text-nowrap " filter="p" rel="tooltip" title=""
-                            data-original-title="Test Sets" data-toggle="dropdown">
-                            <i class="icomoon-lesson-sm"></i>
-                            <span class="d-none d-md-inline">Lessons</span>
-                        </button>
-                        <button type="button" class="btn btn-light text-nowrap" filter="u" rel="tooltip" title=""
-                            data-original-title="Quiz" data-toggle="dropdown">
-                            <i class="icomoon-testprep-or-practice-test"></i>
-                            <span class="d-none d-md-inline">Pratice</span>
-                        </button>
-                        <button type="button" class="btn btn-light dropdown-toggle" filter="u" rel="tooltip"
-                            title="" data-original-title="Quiz">
-                            <i class="icomoon-add-license-enroll-sm"></i>
-                            <span class="d-none d-md-inline">Prepengine</span>
-                        </button>
-                        <button type="button" class="btn btn-light dropdown-toggle" filter="u" rel="tooltip"
-                            title="" data-original-title="Quiz">
-                            <i class="icomoon-bars"></i>
-                            <span class="d-none d-md-inline">Analytics</span>
-                        </button>
+                    <div class="form-group col m-0 p-0 ml-md-2 mt-sm-2 mt-2 mt-md-0">
+                        <div class="btn-group col p-0">
+                            <button type="button" class="btn btn-light px-md-2 col active text-nowrap" tabindex="0"
+                                data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top"
+                                data-bs-content="Roster" filter="q" rel="tooltip" title=""
+                                data-original-title="Exercise">
+                                <i class="align-middle icomoon-roster-sm"></i>
+                                <span class="d-none d-lg-inline">Roster</span>
+                            </button>
+                            <button type="button" class="btn btn-light px-md-2 col text-nowrap " tabindex="0"
+                                data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top"
+                                data-bs-content="Lessons" filter="q" rel="tooltip" title=""
+                                data-original-title="Exercise" filter="p" rel="tooltip" title=""
+                                data-original-title="Test Sets" data-toggle="dropdown">
+                                <i class=" icomoon-lesson-sm"></i>
+                                <span class="d-none d-lg-inline">Lessons</span>
+                            </button>
+                            <button type="button" class="btn btn-light px-md-2 col text-nowrap" tabindex="0"
+                                data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top"
+                                data-bs-content="Pratice" filter="q" rel="tooltip" title=""
+                                data-original-title="Exercise" filter="u" rel="tooltip" title=""
+                                data-original-title="Quiz" data-toggle="dropdown">
+                                <i class="icomoon-testprep-or-practice-test"></i>
+                                <span class="d-none d-lg-inline">Pratice</span>
+                            </button>
+                            <button type="button" class="btn btn-light px-md-2 col dropdown-toggle" tabindex="0"
+                                data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top"
+                                data-bs-content="Prepengine" filter="q" rel="tooltip" title=""
+                                data-original-title="Exercise" filter="u" rel="tooltip" title=""
+                                data-original-title="Quiz">
+                                <i class="icomoon-add-license-enroll-sm"></i>
+                                <span class="d-none d-lg-inline">Prepengine</span>
+                            </button>
+                            <button type="button" class="btn btn-light px-md-2 col dropdown-toggle" tabindex="0"
+                                data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top"
+                                data-bs-content="Analytics" filter="q" rel="tooltip" title=""
+                                data-original-title="Exercise" filter="u" rel="tooltip" title=""
+                                data-original-title="Quiz">
+                                <i class="icomoon-bars"></i>
+                                <span class="d-none d-lg-inline">Analytics</span>
+                            </button>
+                        </div>
                     </div>
                 </div>
 
-                <div class="form-check form-switch mt-3 mt-lg-0 col-5 p-0 d-flex align-items-center col-lg-5 justify-content-md-start justify-content-lg-end align-middle">
-                    <label class="form-check-label ml-5 mr-lg-5" for="flexSwitchCheckDefault">Test Mode only
+                <div
+                    class="form-check form-switch col mt-lg-0 p-0 d-flex align-items-center justify-content-md-end justify-content-lg-end align-middle">
+                    <label class="form-check-label ml-5 mr-md-5 text-nowrap" for="flexSwitchCheckDefault">Test Mode only
                     </label>
                     <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
                 </div>
             </div>
-
-
         </div>
 
         <div class="details mt-2">
@@ -156,54 +182,54 @@
                         <tr class="disable">
                             <th>
                                 <div class="form-check form-check-inline mb-0">
-                                    <input class="form-check-input mb-0" type="checkbox" id="inlineCheckbox1"
+                                    <input class="custom_checkbox_new mr-1" type="checkbox" id="inlineCheckbox1"
                                         value="option1">
                                     <button class="dropdown-toggle btn border-primary btn-light btn-xs mb-0"></button>
                                 </div>
                             </th>
                             <th class="dropup">
                                 Student Name
-                                <p class="text-muted small mb-0 dropdown-toggle m-0">Tag/status</p>
+                                <p class="text-muted small text-nowrap mb-0 dropdown-toggle m-0">Tag/status</p>
                             </th>
                             <th class="dropup">
                                 Course Name
-                                <p class="text-muted small mb-0 dropdown-toggle">CRN/course status</p>
+                                <p class="text-muted small text-nowrap mb-0 dropdown-toggle">CRN/course status</p>
                             </th>
                             <th class="dropup">
                                 Instructor
-                                <p class="text-muted small mb-0 dropdown-toggle">section</p>
+                                <p class="text-muted small text-nowrap mb-0 dropdown-toggle">section</p>
                             </th>
                             <th class="dropup">
-                                Readliness
-                                <p class="text-muted small mb-0 dropdown-toggle"></p>
+                                Readlines
+                                <p class="text-muted small text-nowrap mb-0 dropdown-toggle"></p>
                             </th>
                             <th class="dropup">
-                                Start Time Passed
-                                <p class="text-muted small mb-0">Time Passesd</p>
+                                Start
+                                <p class="text-muted small text-nowrap mb-0">Time Passesd</p>
                                 <p class="dropdown-toggle mb-0 "></p>
                             </th>
                             <th class="dropup">
-                                Target Time Needed
-                                <p class="text-muted small mb-0">Time Needed</p>
+                                Targe
+                                <p class="text-muted small text-nowrap mb-0">Time Needed</p>
                                 <p class="dropdown-toggle mb-0 "></p>
                             </th>
                             <th>
                                 Estimated
-                                <p class="text-muted small mb-0 dropdown-toggle">Time Required</p>
+                                <p class="text-muted small text-nowrap mb-0 dropdown-toggle">Time Required</p>
                             </th>
                             <th class="dropup">
                                 Last Login
-                                <p class="text-muted small mb-0">Time Passesd</p>
+                                <p class="text-muted text-nowrap small mb-0">Time Passesd</p>
                                 <p class="dropdown-toggle mb-0 "></p>
                             </th>
-                            <th>Action</th>
+                            <th>Actions</th>
                         </tr>
                     </thead>
                     <tbody class="">
                         <tr class="opacity-50">
                             <td class="align-middle">
                                 <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1"
+                                    <input class="custom_checkbox_new mr-1" type="checkbox" id="inlineCheckbox1"
                                         value="option1">
                                     <label class="form-check-label" for="inlineCheckbox1">1</label>
                                 </div>
@@ -211,7 +237,7 @@
                             <td>
                                 <img src="https://www.ucertify.com/layout/themes/bootstrap4/images/default_user.jpg"
                                     class="rounded-circle span0 mr">
-                                Abhishek ku...
+                                <span class="text-nowrap">Abhishek ku...</span>
                             </td>
                             <td>
                                 <p class="m-0">APP-Traning</p>
@@ -221,7 +247,7 @@
                             </td>
                             <td class="align-middle">
                                 <p class="m-0 p-0">Dhiroo Verma</p>
-                                <span class="small text-white bg-primary">New</span>
+                                <span class="badge bg-primary">New</span>
                             </td>
                             <td>
                                 <svg class="peity" height="16" width="16">
@@ -233,16 +259,16 @@
                                 </svg>
                                 <p class="text-green">58%</p>
                             </td>
-                            <td class="align-middle">24-ARP-19
+                            <td class="align-middle text-nowrap">24-ARP-19
                                 <p class="small text-muted mb-0">2.1 years</p>
                             </td>
-                            <td class="align-middle">25-JUN-19
+                            <td class="align-middle text-nowrap">25-JUN-19
                                 <p class="small text-muted mb-0">NA</p>
                             </td>
-                            <td class="align-middle">12-JAN-23
+                            <td class="align-middle text-nowrap">12-JAN-23
                                 <p class="small text-muted mb-0">1.6 years</p>
                             </td>
-                            <td class="align-middle text-danger">21-FEB-19
+                            <td class="align-middle text-nowrap text-danger">21-FEB-19
                                 <p class=" small text-muted mb-0 text-red">2.3 years ago</p>
                             </td>
                             <td class="align-middle"><button class="btn border-primary dropdown-toggle"><i
@@ -252,17 +278,17 @@
                     <tbody>
                         <tr>
                             <td class="align-middle">
-                                <!-- <input type="checkbox" name="" id="">2 -->
                                 <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1"
+                                    <input class="custom_checkbox_new mr-1" type="checkbox" id="inlineCheckbox1"
                                         value="option1">
                                     <label class="form-check-label" for="inlineCheckbox1">2</label>
                                 </div>
                             </td>
-                            <td class="user-avatar cell-detail user-info">
-                                <img src="https://www.ucertify.com/layout/themes/bootstrap4/images/default_user.jpg"
-                                    class="rounded-circle span0 mr">
-                                <span>Abhishek Pan...</span>
+                            <td class="align-middle">
+                                <div class="d-flex align-items-center">
+                                    <p class="text-white p-2 my-auto width40 height38 bg-success border rounded-circle font-weight-bold">AP</p>
+                                    <div class="text-truncate ml-2 width120 pr-1">Abhishek panday</div>
+                                </div>
                             </td>
                             <td>
                                 <p class="m-0">APP-Traning</p>
@@ -270,8 +296,9 @@
                                 <i class="icomoon-lesson-sm text-success s4 "></i>
                                 <i class="icomoon-testprep-sm text-success s4 "></i>
                             </td>
-                            <td class="align-middle">Swati kesarwani
-                                <p class="small text-white bg-primary mb-0">Merged shambhunath Ap</p>
+                            <td class="align-middle">
+                                <p class="m-0 p-0">Swati kesarwani</p>
+                                <span class="badge bg-primary">Merged shambhunath Ap</span>
                             </td>
                             <td><svg class="peity" height="16" width="16">
                                     <path d="M 8 0 A 8 8 0 1 1 2.2452815972907922 13.55726696367198 L 8 8"
@@ -282,16 +309,15 @@
                                 </svg>
                                 <p class="text-green">64%</p>
                             </td>
-                            <td class="align-middle">18-FEB-19
+                            <td class="align-middle text-nowrap">18-FEB-19
                                 <p class="small text-mute mb-0">4.3 years</p>
                             </td>
-                            <td class="align-middle">18-JUN-19
+                            <td class="align-middle text-nowrap">18-JUN-19
                                 <p class="small text-muted mb-0">NA</p>
-                            </td class="align-middle">
-                            <td class="align-middle">03-DEC-23
+                            <td class="align-middle text-nowrap">03-DEC-23
                                 <p class="small text-muted mb-0">2.5 years</p>
                             </td>
-                            <td class="align-middle text-danger">14-MAY-17
+                            <td class="align-middle text-nowrap text-danger">14-MAY-17
                                 <p class="small text-muted mb-0 text-red ">4.1 years ago</p>
                             </td>
                             <td class="align-middle"><button class="btn border-primary dropdown-toggle"><i
@@ -304,6 +330,23 @@
 
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+
+    <script>
+        var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+        var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+            return new bootstrap.Popover(popoverTriggerEl)
+        })
+    </script>
 </body>
 
 </html>
